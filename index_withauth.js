@@ -47,4 +47,5 @@ app.post("/login", (req,res) => {
     return res.status(200).send("User successfully logged in");
 });
 
+
 app.listen(PORT,()=>console.log("Server is running at port "+PORT));
